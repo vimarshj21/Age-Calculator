@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/app"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="CALCULATE YOUR"
+        android:fontFamily="@font/courgette"
+        android:textColor="#4640A2"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="AGE"
+        android:fontFamily="@font/courgette"
+        android:textColor="#D8DAE1"
+        android:padding="10dp"
+        android:background="#4640A2"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text=" IN MINUTES"
+        android:fontFamily="@font/courgette"
+        android:textColor="#4640A2"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="160dp"
+        android:layout_height="1dp"
+        android:background="#92A8F5"/>
+
+
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:text="SELECT AGE"
+        android:fontFamily="@font/montserratm"
+        android:textColor="#929292"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#6564B0"
+        android:layout_marginTop="18dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/selected_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserratm"
+            android:backgroundTint="@color/white"
+            android:textColor="#1E2670"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Selected Date"
+            android:fontFamily="@font/montserratm"
+            android:textColor="#C4C2E5"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/selected_date_in_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:textColor="#1E2670"
+            android:fontFamily="@font/montserratm"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Age in minutes"
+            android:fontFamily="@font/montserratm"
+            android:textColor="#C4C2E5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
