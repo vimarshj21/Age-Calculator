@@ -32,10 +32,10 @@ class MainActivity : AppCompatActivity() {
                     view, selectedYear, selectedMonth, selectedDayOfMonth ->
 
             Toast.makeText(this,
-                "The chosen year is $year, the month is $month and the day is $day"
+                "The chosen year is $selectedYear, the month is ${selectedMonth +1} and the day is $selectedDayOfMonth"
                 , Toast.LENGTH_LONG ).show()
 
-            val selectedDate = " $selectedDayOfMonth/ {$selectedMonth +1 }/ $selectedYear"
+            val selectedDate = " $selectedDayOfMonth/${selectedMonth +1 }/ $selectedYear"
             selected_date.setText(selectedDate)
 
             val sdf = SimpleDateFormat("dd/MM/yyyy" , Locale.ENGLISH)

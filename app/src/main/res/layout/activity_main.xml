@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/app"
+    android:background="@drawable/figma"
     tools:context=".MainActivity">
 
     <ImageView
@@ -68,14 +68,6 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:background="#6564B0"
-        android:layout_marginTop="18dp"
-        android:padding="16dp">
 
         <TextView
             android:id="@+id/selected_date"
@@ -113,10 +105,6 @@
             android:fontFamily="@font/montserratm"
             android:textColor="#C4C2E5"
             android:textSize="18sp" />
-
-    </LinearLayout>
-
-
 
 
 </LinearLayout>
