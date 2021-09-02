@@ -10,16 +10,22 @@
     android:background="@drawable/figma"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="191dp"
-        android:layout_height="160dp"
-        android:layout_marginTop="30dp"
-        android:src="@drawable/ic_time" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/celeblottie"
+        android:layout_width="166dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottiee"
+        tools:ignore="MissingClass" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="8dp"
         android:text="CALCULATE YOUR"
         android:fontFamily="@font/courgette"
         android:textColor="#4640A2"
@@ -76,7 +82,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/montserratm"
             android:backgroundTint="@color/white"
-            android:textColor="#1E2670"
+            android:textColor="#D0DA64"
             android:textSize="25sp" />
 
         <TextView
@@ -94,7 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
-            android:textColor="#1E2670"
+            android:textColor="#D0DA64"
             android:fontFamily="@font/montserratm"
             android:textSize="35dp" />
 
